@@ -1,0 +1,170 @@
+:root {
+    --color-primary: #0b1e33;
+    --color-primary-light: #1a3550;
+    --color-accent: #f9b81b;
+    --color-accent-hover: #e5a617;
+    --color-success: #4caf50;
+    --color-success-bg: #e8f5e9;
+    --color-info: #2196f3;
+    --color-info-bg: #e3f2fd;
+    --color-warning: #ff9800;
+    --color-warning-bg: #fff3e0;
+    --color-danger: #ff5722;
+    --color-danger-bg: #ffebee;
+    --color-danger-dark: #c62828;
+    --color-purple: #9c27b0;
+    --color-text: #0b1e33;
+    --color-text-muted: #6b7a8f;
+    --color-text-light: #999;
+    --color-bg: #f4f7fc;
+    --color-white: #ffffff;
+    --color-border: #e2e8f0;
+    --color-card-bg: #f8faff;
+    --color-footer-bg: #eef2f6;
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.03);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.03);
+    --shadow-lg: 0 8px 20px rgba(0,0,0,0.06);
+    --shadow-sidebar: 4px 0 15px rgba(0,0,0,0.1);
+    --radius-sm: 10px;
+    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-pill: 30px;
+    --radius-full: 50%;
+    --sidebar-width: 190px;
+    --transition-fast: 0.2s;
+    --transition-normal: 0.3s;
+    --font-family: 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif;
+}
+
+[data-theme="dark"] {
+    --color-primary: #0f1724;
+    --color-primary-light: #1a2a40;
+    --color-bg: #0a1628;
+    --color-white: #131f33;
+    --color-text: #e2e8f0;
+    --color-text-muted: #8899aa;
+    --color-text-light: #667788;
+    --color-border: #1e3050;
+    --color-card-bg: #131f33;
+    --color-footer-bg: #0f1d30;
+    --color-success-bg: #0d2818;
+    --color-info-bg: #0d1f3c;
+    --color-warning-bg: #2d1f00;
+    --color-danger-bg: #2d1010;
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+    --shadow-lg: 0 8px 20px rgba(0,0,0,0.4);
+    --shadow-sidebar: 4px 0 15px rgba(0,0,0,0.5);
+}
+
+[data-theme="dark"] .sidebar .nav-section {
+    color: #5a6a7a;
+}
+
+[data-theme="dark"] .sidebar .menu-item {
+    color: #8899aa;
+}
+
+[data-theme="dark"] .sidebar .menu-item.active {
+    color: #0b1e33;
+}
+
+[data-theme="dark"] .role-selector {
+    background: #131f33;
+    border-color: #1e3050;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .role-selector select {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .data-table th {
+    background: #0f1d30;
+    color: #aabbcc;
+}
+
+[data-theme="dark"] .data-table td {
+    border-bottom-color: #1e3050;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .data-table tbody tr:hover {
+    background: #0f1d30;
+}
+
+[data-theme="dark"] .form-control {
+    background: #0f1724;
+    border-color: #1e3050;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .search-bar {
+    background: #131f33;
+    border-color: #1e3050;
+}
+
+[data-theme="dark"] .search-bar input {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .modal {
+    background: #131f33;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .detail-card {
+    background: #131f33;
+}
+
+[data-theme="dark"] .detail-card p {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .detail-card h4 {
+    color: #8899aa;
+}
+
+[data-theme="dark"] .timeline-item {
+    background: #0f1d30;
+}
+
+[data-theme="dark"] .legend-bar {
+    color: #aabbcc;
+}
+
+[data-theme="dark"] .login-selected {
+    background: #0f1d30;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .badge-count {
+    background: #1e3050;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .toast {
+    background: #1a2a40;
+}
+
+[data-theme="dark"] .modal-close {
+    background: #1e3050;
+    color: #aabbcc;
+}
+
+[data-theme="dark"] .btn-outline {
+    color: #e2e8f0;
+    border-color: #1e3050;
+}
+
+[data-theme="dark"] .btn-outline:hover {
+    background: #1e3050;
+}
+
+[data-theme="dark"] .empty-state {
+    color: #8899aa;
+}
+
+[data-theme="dark"] .empty-state h3 {
+    color: #e2e8f0;
+}
